@@ -8,6 +8,5 @@ async function f1 (lat, long, timeStr) {
     const avgTemp = Math.floor((max + min) / 2);
     return {avgTemp};
 }
-}
 
 module.exports = f1;
